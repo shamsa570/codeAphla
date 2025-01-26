@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
       allSingerCards.forEach(card => {
         card.style.display = 'block';
       });
-      showAllBtn.innerText = 'Show Less'; 
+      showAllBtn.innerText = 'Show All'; 
       allCardsVisible = true;
     } else {
     
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
           card.style.display = 'none';
         }
       });
-      showAllBtn.innerText = 'Show All'; 
+      showAllBtn.innerText = 'Show Less'; 
       allCardsVisible = false;
     }
   });
